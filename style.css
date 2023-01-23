@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+.calc{
+   width: 560px;
+   height: 630px;
+    background-color: rgba(27, 27, 32, 0.708);
+    margin: auto;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: rgba(205, 194, 194, 0.877) ;
+
+
+
+}
+P{
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#screen{
+    background-color: rgba(231, 231, 240, 0.868);
+    height: 60px;
+    width: 500px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: right;
+
+
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.571);
+    color: rgba(255, 250, 240, 0.922);
+    width: 60px;
+    height: 50px;
+    font-size:30px;
+    margin: 30px;
+    border-radius: 12px;
+}
+.clear{
+    background-color: red;
+}
+.operator{
+    background-color: rgb(132,132,130);
+}
+.button:hover{
+
+    background-color: rgb(145, 225, 232);
+}
+body{
+    background: url('https://www.bajajfinserv.in/etc.clientlibs/bajajfinserv-web/clientlibs/clientlib-site/resources/images/calc-right-bg.png');
+    background-size: cover;
+}
